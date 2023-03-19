@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body id="body">
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+        <div class="vlume-icon">
+          <input type="range" class="volume" name="range">
+        </div>
+      </div>
+      <div class="vraper-of-progressbar">
+        <div class="prograss-bar">
+          <div class="block-bar"></div>
+        </div>
+        <div class="time-treack">
+          <div class="current-time-trek">00:00</div>
+          <div class="time-of-end-treck">00:00</div>
+        </div>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="wraper-weather-langugage">
+      <div class="ru-setting">
+        <div class="setting-block">
+          <div class="user-name"></div>
+          <p class="stroke">Would you like to chenge langugage</p>
+          <div class="langugage">EN</div>
+          <p class="stroke">Would you like to chenge img</p>
+          <div class="img">
+            <div class="API-with-button">
+              <button type="button" class="api but">API</button>
+              <input type="text" class="inputApi" placeholder="[Enter subject]">
+            </div>
+            <div class="flirck">
+              <button type="button" class="api but">Flickr</button>
+              <input type="text" class="inputFlirc" placeholder="[Enter subject]">
+            </div>
+            <button type="button" class="api but">GitHub</button>
+          </div>
+          <p class="stroke">Would you like to delete any element</p>
+          <div class="block-with-delet-elements">
+            <button type="button" class="del but">Music</button>
+            <button type="button" class="del but">Weather</button>
+            <button type="button" class="del but">Qutes</button>
+            <button type="button" class="del but">Calendar</button>
+            <button type="button" class="del but">Greetings</button>
+          </div>
+        </div>
+      </div>
+      <div class="setting"></div>
+      <div class="weather">
+        <input type="text" class="city" />
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </div>
+   
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter your name]"/>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="quoteBlock">
+      <button class="change-quote"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+      </div>
+    </div>
+    <div class="rschool">
+      <a class="link-git" href="https://github.com/timkahi">GitHub</a>
+      <a class="link-rsshool" href="https://rs.school/js/">Rolling Scopes School(2023)</a>
+      <a class="link-discord" href="https://discord.com/accessibility">Discore</a>
+    </div>
+  </footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
